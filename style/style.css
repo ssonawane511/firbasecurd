@@ -1,0 +1,55 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  margin: 6% auto;
+  width: 100%;
+  padding: 30px;
+  max-width: 400px;
+  background-color: rgba(139, 176, 231, 0.082);
+  border-radius: 20px;
+  font-family: sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+.form-container:hover {
+  border-bottom: 5px solid rgb(24, 104, 224);
+}
+.form-container:focus {
+  border-bottom: 5px solid rgb(24, 104, 224);
+}
+
+.hide {
+  display: none;
+}
+
+.cards_container {
+  margin-top: 2%;
+}
+.card {
+  transition: 0.3s;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.096);
+  margin-top: -10px;
+}
+.email {
+  color: rgba(59, 58, 58, 0.877);
+}
+.address {
+  color: rgba(59, 58, 58, 0.877);
+}
+
+.phone-number {
+  color: rgba(59, 58, 58, 0.877);
+}
+
+.card-title {
+  color: rgb(42, 127, 255);
+}
